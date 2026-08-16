@@ -83,7 +83,6 @@ Copy the folder. Scripts resolve the project root from their own location. Empty
 | **Pipeline** | `pipe` | Chain agents (min 2, max 5). Each stage refines the last. |
 | **Consensus / Quad** | `quad` / `consensus` | Same problem to independent specialists → Nexus synthesizes. Blank IDs = auto four. |
 | **Debate** | `debate` | Two specialists, two rounds. **Nexus is the only judge.** |
-| **Debate 2.0** | `debate2` | Alternate debate path via addons. |
 
 Route automatically or pick IDs by hand. You stay in charge.
 
