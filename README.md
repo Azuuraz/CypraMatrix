@@ -112,7 +112,7 @@ Marker: `.cypra_portable_store` in the project model directory.
 | Core | `cypra`, `anomaly`, `quantum`, `nexus-prime` |
 | Engine | `OLLAMA_NUM_PARALLEL=1`, single-stream |
 
-Modelfiles are the source of truth for `FROM`. Chat is a **native `ollama run`** in the same window. Wait for `>>> Send a message`, then type. `/bye` returns to the deck.
+Modelfiles are the source of truth for the `MATRIX`. Chat is a **native `ollama run`** in the same window. Wait for `>>> Send a message`, then type. `/bye` returns to the deck.
 
 Pick an unregistered ID → the Matrix offers to create it from the local Modelfile (and pull the base if needed).
 
