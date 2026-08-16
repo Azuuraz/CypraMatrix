@@ -35,7 +35,7 @@ Local-first. Operator in the chair. Core work does not need the internet.
 
 | Capability | Detail |
 | --- | --- |
-| **700 agents** | Embedded registry (IDs 1–700). Groups, tags, search, capability map. 411–700 add specialty roles and a small roleplay set. |
+| **700 agents** | Embedded registry (IDs 1–700). Groups, tags, search, capability map. |
 | **Nexus Prime routing** | Scores domain, specialty, tags, verbs, terminology, and VRAM fit. Auto-picks a Quad if you leave the team blank. |
 | **Workflows** | `pipe` (sequential), `quad` / `consensus` (independent then synthesize), `debate` (two agents, Nexus judges). |
 | **Directive-first identity** | Each agent is an Ollama Modelfile. Change profile without rewriting the persona. |
