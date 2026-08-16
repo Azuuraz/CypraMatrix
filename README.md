@@ -20,7 +20,7 @@ Install Ollama → run a model → chat
 
 Fine — until you need a medic and a packet sleuth on the same machine, a repeatable debate, or a store you can copy to another PC without mixing it into the host’s models.
 
-CypraMatrix is an **operating layer**.
+CypraMatrix is an **operating layer**, not another chatbot skin:
 
 - Directives live in Modelfiles. Profiles change *runtime*, not identity.
 - Nexus Prime routes by domain and task — not by the prettiest name.
@@ -45,7 +45,7 @@ Local-first. Operator in the chair. Core work does not need the internet.
 | **Fleet tools** | `INSTALL_MODELS.bat` is for new PCs and fleet jobs: status, pull base, Core four, register all, or rebuild onto a new base. |
 | **Task workspaces** | Per-run folders for prompts, output, transcripts. |
 | **Themes & layouts** | Live color editor, presets, and decks (Classic through Quiet / Focus). Theme and layout are separate. |
-| **Addons** | Mission, review, integrity, VRAM, benchmarks, and operator panels. Marked **W** (workflow) or **P** (panel). |
+| **Addons** | Mission, review, integrity, VRAM, benchmarks, and operator panels. Marked **W** (workflow) or **P** (panel). Memory/Knowledge vaults are **not** a product feature. |
 
 Agents share **one base model**. Specialization is the SYSTEM directive — that is how 700 names stay portable on a 6 GB card.
 
@@ -269,6 +269,8 @@ Same status inside the Matrix: `portable`.
 Ships **scripts + 700 Modelfiles + icons + default config**. Does **not** include:
 
 - `OllamaModels` weights
+- Live `Logs`, `Tasks`, `MatrixData`
+- Nested `Backups`
 
 After unzip: Ollama on `PATH` → `START_CHAT_MATRIX.bat` (or `INSTALL_MODELS.bat` for fleet jobs). Weights pull locally so the archive stays small.
 

@@ -1,0 +1,30 @@
+CypraMatrix — run on another PC
+================================
+
+Needs on the new machine
+  - Windows + PowerShell 5.1 or 7
+  - Ollama installed and on PATH  (https://ollama.com)
+  - This folder, unzipped anywhere (Desktop, USB, D:\Apps, ...)
+
+Does NOT need
+  - The original D:\ path
+  - Documents\CypraTeam
+  - Model weights inside the zip (they are omitted on purpose)
+
+Start
+  1. Double-click START_CHAT_MATRIX.bat
+  2. Watch the boot animation
+  3. If the store is empty, pick:
+       [1] Full 700-agent install (slow)
+       [2] Core four only (cypra, anomaly, quantum, nexus-prime)
+       [3] Skip — register an agent when you type its ID
+  4. Optional: CREATE_SHORTCUT.bat for a desktop icon
+
+Chat
+  Type an agent ID. Live session stays loaded (fast).
+  Modelfile SYSTEM directives stay in Ollama.
+  /help  /clear  /think  /export  /bye
+  Next launch can resume the last thread for that agent.
+  resetall wipes Memory, Knowledge, and chat sessions.
+
+Weights stay in .\OllamaModels on that PC.
